@@ -1,7 +1,7 @@
 <section class="my-4">
     <p>Bienvenido usuario: {{ text }}</p>
-    <ul *ngFor="let link of links">
-        <li>
+    <ul>
+        <li *ngFor="let link of links">
             <a href="#">{{ link }}</a>
         </li>
     </ul>
